@@ -28,6 +28,60 @@
   color: #61dafb;
 }
 
+.home-page {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  background: linear-gradient(to right, #e0f7ff, #f2f8ff);
+  padding: 0 20px;
+}
+
+.hero-section {
+  position: relative;
+  z-index: 1; /* make sure content is above particles */
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.hero-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #3399ff;
+  min-height: 35px; /* prevents jump when typing */
+}
+
+.hero-section p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  color: #333;
+}
+
+.home-buttons button {
+  background-color: #3399ff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.home-buttons button:hover {
+  background-color: #1a75ff;
+  transform: translateY(-3px);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
