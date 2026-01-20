@@ -88,7 +88,7 @@ function Home() {
       <div className="page-container home-page">
         <h1 style={h1Style}>Hi, Welcome to my portfolio</h1>
         <h2 style={typingStyle}>
-          I am Hinita Priyanka S | Full Stack Developer
+          I am Hinita Priyanka S
         </h2>
         <p style={pStyle}>
           Passionate Software Engineer with 2 years of experience building
